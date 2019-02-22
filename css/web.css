@@ -4,9 +4,14 @@ body {
   position: relative;
 }
 
+.bg { 
+  background-size: 100%;
+  position: center;
+}
+
 .file-upload {
-  background-color: #ffffff;
-  width: 300px; /* for setting a fixed upload box size */
+  background-color: #transparent;
+  width: 300px; /* for setting a fixed size */
   margin: 0 auto;
   padding: 20px;
 }
@@ -28,7 +33,7 @@ body {
 
 .file-upload-btn:hover {
   background: #fc9;
-  color: #ffffff;
+  color: #fff;
   transition: all .2s ease;
   cursor: pointer;
 }
@@ -106,7 +111,7 @@ body {
 
 .remove-image:hover {
   background: #f30;
-  color: #ffffff;
+  color: #fff;
   transition: all .2s ease;
   cursor: pointer;
 }
@@ -117,14 +122,14 @@ body {
 }
 
 h1 {
-	color: #f30; /* color of header */
+	color: #fff; /* color of header */
 	margin-top: 50px;
 }
 
 #footer {
-    position: absolute;
+    margin-top: 160px;
 	font-size: 10px; /* font size of footer */
-	color: #f30; /* color of footer */
+	color: #fff; /* color of footer */
     width: 100%;
     height: 20px; /* height of the footer */
 }
